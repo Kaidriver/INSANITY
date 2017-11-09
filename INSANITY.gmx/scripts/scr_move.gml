@@ -32,4 +32,4 @@ if (keyboard_check(vk_control)) {
 room_goto(room1)
 } 
 scr_collisions();   
-// I have a big d***
+ 
