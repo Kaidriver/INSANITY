@@ -27,7 +27,6 @@ if (!right && !left) {
 if (!up && !down) {
     vspd = 0;
 }
- 
 if (keyboard_check(vk_control)) {
 room_goto(room1)
 } 
