@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>hspd = 0;
 vspd = 0; 
-spd = 4;
+spd = 7;
 state = scr_move;
 </string>
           </argument>

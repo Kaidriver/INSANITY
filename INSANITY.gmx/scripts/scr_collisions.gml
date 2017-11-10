@@ -10,4 +10,7 @@ if(place_meeting(x, y+vspd, obj_wall)) {
 
 y += vspd; 
 
-// HELLO 
+if (place_meeting(x,y,obj_finish)) {
+    state = scr_switch_level;
+} 
+

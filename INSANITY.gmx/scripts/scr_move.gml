@@ -27,8 +27,6 @@ if (!right && !left) {
 if (!up && !down) {
     vspd = 0;
 }
-if (place_meeting(x,y,obj_finish)) {
-    state = scr_switch_level;
-} 
+
 scr_collisions();   
  
