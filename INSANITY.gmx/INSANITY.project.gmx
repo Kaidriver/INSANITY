@@ -7,6 +7,8 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\spr_player</sprite>
+    <sprite>sprites\spr_teleportr1</sprite>
+    <sprite>sprites\spr_teleportr2</sprite>
     <sprite>sprites\spr_finish</sprite>
     <sprite>sprites\spr_wall</sprite>
   </sprites>
@@ -15,12 +17,14 @@
   <scripts name="scripts">
     <script>scripts\scr_collisions.gml</script>
     <script>scripts\scr_move.gml</script>
-    <script>scripts\scr_switch_level.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_player</object>
     <object>objects\obj_wall</object>
     <object>objects\obj_finish</object>
+    <object>objects\obj_teleportr1</object>
+    <object>objects\obj_teleportr2</object>
+    <object>objects\obj_timer</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
@@ -28,6 +32,8 @@
     <room>rooms\room2</room>
     <room>rooms\room3</room>
     <room>rooms\room4</room>
+    <room>rooms\room5</room>
+    <room>rooms\game_over</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
