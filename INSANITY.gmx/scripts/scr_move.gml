@@ -27,8 +27,8 @@ if (!right && !left) {
 if (!up && !down) {
     vspd = 0;
 }
-if (keyboard_check(vk_control)) {
-room_goto(room1)
+if (place_meeting(x,y,obj_finish)) {
+    state = scr_switch_level;
 } 
 scr_collisions();   
  
