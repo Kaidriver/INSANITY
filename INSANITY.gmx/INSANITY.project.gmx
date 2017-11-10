@@ -11,6 +11,7 @@
     <sprite>sprites\spr_teleportr2</sprite>
     <sprite>sprites\spr_finish</sprite>
     <sprite>sprites\spr_wall</sprite>
+    <sprite>sprites\spr_game_over</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -25,6 +26,7 @@
     <object>objects\obj_teleportr1</object>
     <object>objects\obj_teleportr2</object>
     <object>objects\obj_timer</object>
+    <object>objects\obj_game_over</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
