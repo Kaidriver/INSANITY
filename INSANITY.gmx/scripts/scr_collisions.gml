@@ -11,8 +11,9 @@ if(place_meeting(x, y+vspd, obj_wall)) {
 y += vspd; 
 
 if (place_meeting(x,y,obj_finish)) {
-    var num = irandom_range(1, 5);
-    room_goto(num);
+     
+    room_goto(irandom_range(1,5)); 
+    global.time += (delta_time/1000000)
 } 
 
 if (place_meeting(x,y,obj_teleportr1)) {

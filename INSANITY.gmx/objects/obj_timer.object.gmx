@@ -3,7 +3,7 @@
   <spriteName>&lt;undefined&gt;</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-100</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -25,8 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>time = 15
-show_time = time
+            <string>global.time = 15
+show_time = global.time
 </string>
           </argument>
         </arguments>
@@ -49,10 +49,10 @@ show_time = time
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>time = time - delta_time/1000000;
-show_time = ceil(time);
+            <string>global.time = global.time - delta_time/1000000;
+show_time = ceil(global.time);
 
-if (time &lt; 0) {
+if (global.time &lt; 0) {
     room_goto(game_over)
 }
 </string>
@@ -79,7 +79,7 @@ if (time &lt; 0) {
             <kind>1</kind>
             <string> 
 draw_set_color(c_red); 
-draw_text_transformed(x,y,"Time: " + string(show_time),2, 2, image_angle)
+draw_text_transformed(room_width/2,y,"Time: " + string(show_time),2, 2, image_angle)
  
 </string>
           </argument>
