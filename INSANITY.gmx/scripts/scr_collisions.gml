@@ -21,7 +21,7 @@ if (place_meeting(x,y,obj_finish)) {
     
 =======
      
-    room_goto(irandom_range(1,7)); 
+    room_goto(irandom_range(1,5)); 
     global.time += (delta_time/1000000)
 >>>>>>> da30c576dc0baebb03974cd0991befd126f4d532
 =======
