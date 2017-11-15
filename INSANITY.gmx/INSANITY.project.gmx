@@ -36,6 +36,7 @@
     <room>rooms\room4</room>
     <room>rooms\room5</room>
     <room>rooms\game_over</room>
+    <room>rooms\room7</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
