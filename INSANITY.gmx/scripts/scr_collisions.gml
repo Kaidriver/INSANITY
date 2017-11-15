@@ -12,6 +12,7 @@ y += vspd;
 
 if (place_meeting(x,y,obj_finish)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     global.points += 50;
     room_goto(irandom_range(1,5));
@@ -22,6 +23,11 @@ if (place_meeting(x,y,obj_finish)) {
     room_goto(irandom_range(1,7)); 
     global.time += (delta_time/1000000)
 >>>>>>> da30c576dc0baebb03974cd0991befd126f4d532
+=======
+     
+    room_goto(irandom_range(1,5)); 
+    global.time += (delta_time/1000000)
+>>>>>>> parent of f64b97c... score
 } 
 
 if (place_meeting(x,y,obj_teleportr1)) {

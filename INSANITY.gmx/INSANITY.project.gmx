@@ -27,8 +27,6 @@
     <object>objects\obj_teleportr2</object>
     <object>objects\obj_timer</object>
     <object>objects\obj_game_over</object>
-    <object>objects\obj_score</object>
-    <object>objects\obj_score2</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>

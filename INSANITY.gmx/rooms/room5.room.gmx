@@ -441,10 +441,13 @@
     <instance objName="obj_player" x="128" y="160" name="inst_85754849" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_timer" x="576" y="64" name="inst_17948B2D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <instance objName="obj_score" x="800" y="64" name="inst_9E5EECA9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
 =======
     <instance objName="obj_finish" x="480" y="320" name="inst_06734376" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
 >>>>>>> da30c576dc0baebb03974cd0991befd126f4d532
+=======
+>>>>>>> parent of f64b97c... score
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
