@@ -11,9 +11,11 @@ if(place_meeting(x, y+vspd, obj_wall)) {
 y += vspd; 
 
 if (place_meeting(x,y,obj_finish)) {
-     
-    room_goto(irandom_range(1,5)); 
-    global.time += (delta_time/1000000)
+
+    global.points += 50;
+    room_goto(irandom_range(1,5));
+    alarm[0] = (room_speed*15)
+    
 } 
 
 if (place_meeting(x,y,obj_teleportr1)) {
