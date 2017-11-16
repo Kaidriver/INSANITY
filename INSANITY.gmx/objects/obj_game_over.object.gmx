@@ -26,7 +26,6 @@
           <argument>
             <kind>1</kind>
             <string>room_goto(irandom_range(1,5));
-// For Kaiwen
 </string>
           </argument>
         </arguments>
