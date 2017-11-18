@@ -17,9 +17,14 @@
     <sprite>sprites\spr_howto</sprite>
     <sprite>sprites\spr_2pmode</sprite>
     <sprite>sprites\spr_level</sprite>
+    <sprite>sprites\spr_lvl1</sprite>
+    <sprite>sprites\spr_lvl2</sprite>
+    <sprite>sprites\spr_lvl3</sprite>
+    <sprite>sprites\spr_lock</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
+    <background>background\background2</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -32,6 +37,7 @@
     <object>objects\obj_p2</object>
     <object>objects\obj_wall</object>
     <object>objects\obj_finish</object>
+    <object>objects\obj_finish2</object>
     <object>objects\obj_teleportr1</object>
     <object>objects\obj_teleportr2</object>
     <object>objects\obj_timer</object>
@@ -43,8 +49,15 @@
     <object>objects\obj_howto</object>
     <object>objects\obj_2pmode</object>
     <object>objects\obj_levels</object>
+    <object>objects\obj_lvl1</object>
+    <object>objects\obj_lvl2</object>
+    <object>objects\obj_lvl3</object>
+    <object>objects\obj_lock1</object>
+    <object>objects\obj_lock2</object>
+    <object>objects\obj_initializer</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\room_initalizer</room>
     <room>rooms\start</room>
     <room>rooms\room0</room>
     <room>rooms\room1</room>
@@ -53,6 +66,9 @@
     <room>rooms\room4</room>
     <room>rooms\room5</room>
     <room>rooms\game_over</room>
+    <room>rooms\levelsroom</room>
+    <room>rooms\level_1</room>
+    <room>rooms\level_2</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

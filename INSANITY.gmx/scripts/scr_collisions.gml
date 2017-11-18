@@ -30,6 +30,11 @@ if (place_meeting(x,y,obj_finish)) {
      
 } 
 
+if (place_meeting(x,y, obj_finish2)) {
+    room_goto(levelsroom);
+    global.unlock2 = true;
+}
+
 if (place_meeting(x,y,obj_teleportr1)) {
     obj_player.x = obj_teleportr2.x 
     obj_player.y = obj_teleportr2.y
