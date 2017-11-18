@@ -7,20 +7,29 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\spr_player</sprite>
+    <sprite>sprites\spr_p2</sprite>
     <sprite>sprites\spr_teleportr1</sprite>
     <sprite>sprites\spr_teleportr2</sprite>
     <sprite>sprites\spr_finish</sprite>
     <sprite>sprites\spr_wall</sprite>
     <sprite>sprites\spr_gameover</sprite>
+    <sprite>sprites\spr_endlessbutton</sprite>
+    <sprite>sprites\spr_howto</sprite>
+    <sprite>sprites\spr_2pmode</sprite>
+    <sprite>sprites\spr_level</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\background1</background>
+  </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scr_collisions.gml</script>
     <script>scripts\scr_move.gml</script>
+    <script>scripts\scr_move_p2.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_player</object>
+    <object>objects\obj_p2</object>
     <object>objects\obj_wall</object>
     <object>objects\obj_finish</object>
     <object>objects\obj_teleportr1</object>
@@ -30,8 +39,13 @@
     <object>objects\obj_scoredisplay</object>
     <object>objects\obj_gameover</object>
     <object>objects\obj_timervar</object>
+    <object>objects\obj_endless</object>
+    <object>objects\obj_howto</object>
+    <object>objects\obj_2pmode</object>
+    <object>objects\obj_levels</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\start</room>
     <room>rooms\room0</room>
     <room>rooms\room1</room>
     <room>rooms\room2</room>

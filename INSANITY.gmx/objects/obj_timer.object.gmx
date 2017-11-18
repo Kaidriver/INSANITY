@@ -25,11 +25,22 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.time = global.time - delta_time/1000000;
-global.show_time = ceil(global.time);
+            <string>if (global.timer2 = true){
+    global.time = global.time - delta_time/1000000;
+    global.show_time = ceil(global.time);
 
-if (global.time &lt; 0) {
-    room_goto(game_over)
+    if (global.time &lt; 0) {
+     room_goto(game_over)
+     }
+}
+
+if (global.timer = true) { 
+    global.time = global.time - delta_time/1000000;
+    global.show_time = ceil(global.time);
+
+    if (global.time &lt; 0) {
+        room_goto(game_over)
+     }
 }
 </string>
           </argument>

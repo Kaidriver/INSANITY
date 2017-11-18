@@ -17,10 +17,17 @@ if(place_meeting(x, y+vspd, obj_wall)) {
 y += vspd; 
 
 if (place_meeting(x,y,obj_finish)) {
+    
     randomize();
-    room_goto(irandom_range(1,5));
+    room_goto(irandom_range(2,5));
     global.points += 50
-    global.time += 15
+    if (global.timer2 = true){
+        global.time += 15
+    }
+    if (global.twoplayer = true) {
+        global.finish = true; 
+    }
+     
 } 
 
 if (place_meeting(x,y,obj_teleportr1)) {
