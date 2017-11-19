@@ -19,7 +19,7 @@ y += vspd;
 if (place_meeting(x,y,obj_finish)) {
     
     randomize();
-    room_goto(irandom_range(2,5));
+    room_goto(irandom_range(4,8));
     global.points += 50
     if (global.timer2 = true){
         global.time += 15
