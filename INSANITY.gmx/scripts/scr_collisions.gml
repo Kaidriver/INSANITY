@@ -38,5 +38,10 @@ if (place_meeting(x,y, obj_finish2)) {
 if (place_meeting(x,y,obj_teleportr1)) {
     obj_player.x = obj_teleportr2.x 
     obj_player.y = obj_teleportr2.y
+}
+
+if (place_meeting(x,y, obj_enemy)) {
+    room_goto(game_over);
+    
 } 
 

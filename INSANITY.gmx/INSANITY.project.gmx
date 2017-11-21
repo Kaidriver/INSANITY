@@ -21,6 +21,7 @@
     <sprite>sprites\spr_lvl2</sprite>
     <sprite>sprites\spr_lvl3</sprite>
     <sprite>sprites\spr_lock</sprite>
+    <sprite>sprites\spr_enemy</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
@@ -55,6 +56,8 @@
     <object>objects\obj_lock1</object>
     <object>objects\obj_lock2</object>
     <object>objects\obj_initializer</object>
+    <object>objects\obj_enemy</object>
+    <object>objects\obj_gameoverpic</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_initalizer</room>
