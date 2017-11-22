@@ -31,7 +31,12 @@ global.timer = false;
 global.timer2 = false;
 global.twoplayer = false;
 global.unlock2 = false;
+global.unlock3 = false
+global.level1 = false;
+global.level2 = false;
+
 room_goto(start); 
+ 
 </string>
           </argument>
         </arguments>

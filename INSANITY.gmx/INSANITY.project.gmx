@@ -39,6 +39,7 @@
     <object>objects\obj_wall</object>
     <object>objects\obj_finish</object>
     <object>objects\obj_finish2</object>
+    <object>objects\obj_finish3</object>
     <object>objects\obj_teleportr1</object>
     <object>objects\obj_teleportr2</object>
     <object>objects\obj_timer</object>
@@ -57,6 +58,10 @@
     <object>objects\obj_lock2</object>
     <object>objects\obj_initializer</object>
     <object>objects\obj_enemy</object>
+    <object>objects\obj_enemy2</object>
+    <object>objects\obj_enemy3</object>
+    <object>objects\obj_enemy4</object>
+    <object>objects\obj_enemy5</object>
     <object>objects\obj_gameoverpic</object>
   </objects>
   <rooms name="rooms">

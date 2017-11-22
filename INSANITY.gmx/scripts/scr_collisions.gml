@@ -33,6 +33,15 @@ if (place_meeting(x,y,obj_finish)) {
 if (place_meeting(x,y, obj_finish2)) {
     room_goto(levelsroom);
     global.unlock2 = true;
+    global.level1 = false;
+    global.level2 = false;
+}
+
+if (place_meeting(x,y, obj_finish3)) {
+    room_goto(levelsroom);
+    global.unlock3 = true;
+    global.level1 = false;
+    global.level2 = false;
 }
 
 if (place_meeting(x,y,obj_teleportr1)) {
@@ -40,7 +49,7 @@ if (place_meeting(x,y,obj_teleportr1)) {
     obj_player.y = obj_teleportr2.y
 }
 
-if (place_meeting(x,y, obj_enemy)) {
+if (place_meeting(x,y, obj_enemy) || place_meeting(x,y, obj_enemy2) || place_meeting(x,y, obj_enemy3) || place_meeting(x,y, obj_enemy4) || place_meeting(x,y, obj_enemy5) ) {
     room_goto(game_over);
     
 } 
