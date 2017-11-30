@@ -34,6 +34,7 @@ global.unlock2 = false;
 global.unlock3 = false
 global.level1 = false;
 global.level2 = false;
+global.pitch = 1;
 
 room_goto(start); 
  
