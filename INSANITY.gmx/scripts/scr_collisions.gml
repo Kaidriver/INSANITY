@@ -25,7 +25,7 @@ if (place_meeting(x,y,obj_finish)) {
     global.pitch += .1; 
     audio_sound_pitch(sound_bkg, global.pitch);
     if (global.timer2 = true){
-        global.time += 15
+        global.time += 5
     }
     if (global.twoplayer = true) {
         global.finish = true; 
