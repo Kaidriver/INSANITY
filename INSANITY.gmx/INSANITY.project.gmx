@@ -24,6 +24,7 @@
     <sprite>sprites\spr_lvl3</sprite>
     <sprite>sprites\spr_lock</sprite>
     <sprite>sprites\spr_enemy</sprite>
+    <sprite>sprites\spr_gameover_2</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
