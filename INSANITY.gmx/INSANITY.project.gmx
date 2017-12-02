@@ -35,6 +35,8 @@
     <script>scripts\scr_collisions.gml</script>
     <script>scripts\scr_move.gml</script>
     <script>scripts\scr_move_p2.gml</script>
+    <script>scripts\scr_save_game.gml</script>
+    <script>scripts\scr_load_game.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_player</object>
@@ -54,6 +56,7 @@
     <object>objects\obj_howto</object>
     <object>objects\obj_2pmode</object>
     <object>objects\obj_levels</object>
+    <object>objects\wut</object>
     <object>objects\obj_lvl1</object>
     <object>objects\obj_lvl2</object>
     <object>objects\obj_lvl3</object>
