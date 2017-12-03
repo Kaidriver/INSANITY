@@ -60,6 +60,11 @@ if (global.finish = true) {
     global.finish = false; 
 }
 
+if keyboard_check(ord('N'))
+   {
+   room_goto(game_over);
+   }
+   
 
 script_execute(state);
 </string>

@@ -51,7 +51,7 @@
             <string>if (global.level2 = true) {
     if(place_meeting(x, y + vspeed, obj_wall))
     directn = -direction;
-    motion_set(directn, 25);
+    motion_set(directn, 12);
 }
  
 
