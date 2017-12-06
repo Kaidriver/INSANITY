@@ -71,7 +71,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>room_goto(levelsroom);
+            <string>room_goto(start);
 </string>
           </argument>
         </arguments>
