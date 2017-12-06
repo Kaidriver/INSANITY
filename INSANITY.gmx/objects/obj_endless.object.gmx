@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>room_goto(room0);
+global.endless = true;
 global.timer2 = true;
 global.time = 20;
 </string>

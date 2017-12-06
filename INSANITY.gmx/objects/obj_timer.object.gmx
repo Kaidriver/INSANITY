@@ -28,10 +28,10 @@
             <string>if (global.timer2 = true){
     global.time = global.time - delta_time/1000000;
     global.show_time = ceil(global.time);
-
     if (global.time &lt; 0) {
-     room_goto(game_over)
-     }
+        room_goto(game_over)
+        
+    }
 }
 
 if (global.timer = true) { 
@@ -40,8 +40,12 @@ if (global.timer = true) {
 
     if (global.time &lt; 0) {
         room_goto(game_over)
-     }
+        
+           
+            
+    }
 }
+
 </string>
           </argument>
         </arguments>

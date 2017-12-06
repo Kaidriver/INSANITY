@@ -62,6 +62,13 @@ if (global.finish = true) {
 
 
 script_execute(state);
+
+if (global.twoplayer = true) {
+    if (place_meeting(x, y, obj_finish)) {
+        global.points1 += 50;
+    }
+}
+
 </string>
           </argument>
         </arguments>
