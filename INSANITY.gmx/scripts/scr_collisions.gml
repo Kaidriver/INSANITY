@@ -21,14 +21,18 @@ if (place_meeting(x,y,obj_finish)) {
     
     randomize();
     room_goto(irandom_range(3,7));
-    global.points += 50
+    
     global.pitch += .1; 
     audio_sound_pitch(sound_bkg, global.pitch);
     if (global.timer2 = true){
         global.time += 5
     }
     if (global.twoplayer = true) {
+         
         global.finish = true; 
+    }
+    else if(global.endless = true) {
+        global.points += 50
     }
      
 } 
