@@ -28,6 +28,7 @@
             <string>if(file_exists("Save.sav")) {
     file_delete("Save.sav");
 }
+highscore_clear();
 room_goto(start);
 
 </string>

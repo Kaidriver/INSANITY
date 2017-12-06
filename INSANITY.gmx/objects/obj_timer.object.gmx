@@ -39,10 +39,19 @@ if (global.timer = true) {
     global.show_time = ceil(global.time);
 
     if (global.time &lt; 0) {
-        room_goto(game_over)
         
-           
+        if (global.points1 &gt; global.points2) {
             
+            room_goto(p1w)
+        
+        } 
+        
+        if (global.points2 &gt; global.points1) {
+            
+            room_goto(p2w)
+        
+        } 
+        
     }
 }
 
