@@ -74,7 +74,7 @@ if (place_meeting(x,y,obj_teleportr1)) {
 }
 
 if (place_meeting(x,y, obj_enemylvl1) || place_meeting(x,y, obj_enemy2) || place_meeting(x,y, obj_enemy3) || place_meeting(x,y, obj_enemy4) || place_meeting(x,y, obj_enemy5) ) {
-    room_goto(game_over);
+    room_goto(game_overlvl);
     
 } 
 

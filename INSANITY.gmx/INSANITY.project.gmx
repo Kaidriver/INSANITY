@@ -18,7 +18,6 @@
     <sprite>sprites\spr_roadblock</sprite>
     <sprite>sprites\spr_floor</sprite>
     <sprite>sprites\spr_tile</sprite>
-    <sprite>sprites\spr_gameover</sprite>
     <sprite>sprites\spr_endlessbutton</sprite>
     <sprite>sprites\spr_howto</sprite>
     <sprite>sprites\spr_2pmode</sprite>
@@ -81,6 +80,7 @@
     <object>objects\obj_enemy4</object>
     <object>objects\obj_enemy5</object>
     <object>objects\obj_gameoverpic</object>
+    <object>objects\obj_gameoverlvl</object>
     <object>objects\obj_sound</object>
     <object>objects\obj_cont</object>
     <object>objects\obj_ng</object>
@@ -101,6 +101,7 @@
     <room>rooms\room4</room>
     <room>rooms\room5</room>
     <room>rooms\game_over</room>
+    <room>rooms\game_overlvl</room>
     <room>rooms\leaderboard</room>
     <room>rooms\levelsroom</room>
     <room>rooms\level_1</room>
