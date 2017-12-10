@@ -13,7 +13,11 @@
     <sprite>sprites\spr_teleportr1</sprite>
     <sprite>sprites\spr_teleportr2</sprite>
     <sprite>sprites\spr_finish</sprite>
+    <sprite>sprites\spr_finish2</sprite>
     <sprite>sprites\spr_wall</sprite>
+    <sprite>sprites\spr_roadblock</sprite>
+    <sprite>sprites\spr_floor</sprite>
+    <sprite>sprites\spr_tile</sprite>
     <sprite>sprites\spr_gameover</sprite>
     <sprite>sprites\spr_endlessbutton</sprite>
     <sprite>sprites\spr_howto</sprite>
@@ -38,7 +42,7 @@
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
-    <script>scripts\scr_collisions.gml</script>
+    <script>scripts\move.gml</script>
     <script>scripts\scr_move.gml</script>
     <script>scripts\scr_move_p2.gml</script>
     <script>scripts\scr_save_game.gml</script>
@@ -48,6 +52,8 @@
     <object>objects\obj_player</object>
     <object>objects\obj_p2</object>
     <object>objects\obj_wall</object>
+    <object>objects\obj_tile</object>
+    <object>objects\obj_floor</object>
     <object>objects\obj_finish</object>
     <object>objects\obj_finish2</object>
     <object>objects\obj_finish3</object>
@@ -82,6 +88,8 @@
     <object>objects\obj_p1w</object>
     <object>objects\obj_p2w</object>
     <object>objects\obj_leaderboardclick</object>
+    <object>objects\obj_level</object>
+    <object>objects\obj_roadblock</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_initalizer</room>
@@ -100,6 +108,13 @@
     <room>rooms\p1w</room>
     <room>rooms\p2w</room>
   </rooms>
+  <constants number="5">
+    <constant name="CELL_WIDTH">32</constant>
+    <constant name="CELL_HEIGHT">32</constant>
+    <constant name="FLOOR">-5</constant>
+    <constant name="WALL">-6</constant>
+    <constant name="VOID">-7</constant>
+  </constants>
   <help>
     <rtf>help.rtf</rtf>
   </help>
