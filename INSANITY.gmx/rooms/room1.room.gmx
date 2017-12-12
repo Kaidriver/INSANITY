@@ -62,7 +62,6 @@
     <instance objName="obj_wall" x="0" y="160" name="inst_BEBFE036" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_player" x="64" y="32" name="inst_EA56BD7D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_scoredisplay" x="608" y="0" name="inst_BE7F39C9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_timer" x="416" y="0" name="inst_19AE7CD3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_scorep1d" x="416" y="160" name="inst_7B4A9355" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_scorep2d" x="512" y="192" name="inst_0F846287" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="0" y="224" name="inst_FDB9D746" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

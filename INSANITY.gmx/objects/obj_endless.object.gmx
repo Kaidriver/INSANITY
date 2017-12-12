@@ -28,7 +28,8 @@
             <string>room_goto(room0);
 global.endless = true;
 global.timer2 = true;
-global.time = 20;
+global.time = 45;
+global.pup = true;
 </string>
           </argument>
         </arguments>

@@ -34,6 +34,7 @@
     <sprite>sprites\spr_p2wins</sprite>
     <sprite>sprites\sprite21</sprite>
     <sprite>sprites\spr_leaderboardclick</sprite>
+    <sprite>sprites\spr_pup</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
@@ -42,11 +43,16 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\move.gml</script>
-    <script>scripts\scr_move.gml</script>
-    <script>scripts\scr_move_p2.gml</script>
+    <script>scripts\move2.gml</script>
     <script>scripts\scr_save_game.gml</script>
     <script>scripts\scr_load_game.gml</script>
+    <script>scripts\state_pup.gml</script>
+    <script>scripts\state_pupp.gml</script>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\font_main</font>
+    <font>fonts\font1</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_player</object>
     <object>objects\obj_p2</object>
@@ -58,10 +64,10 @@
     <object>objects\obj_finish3</object>
     <object>objects\obj_teleportr1</object>
     <object>objects\obj_teleportr2</object>
-    <object>objects\obj_timer</object>
     <object>objects\obj_scorep2d</object>
     <object>objects\obj_scorep1d</object>
     <object>objects\obj_scoredisplay</object>
+    <object>objects\obj_timer</object>
     <object>objects\obj_gameover</object>
     <object>objects\obj_timervar</object>
     <object>objects\obj_endless</object>
@@ -90,6 +96,7 @@
     <object>objects\obj_leaderboardclick</object>
     <object>objects\obj_level</object>
     <object>objects\obj_roadblock</object>
+    <object>objects\obj_pup</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_initalizer</room>

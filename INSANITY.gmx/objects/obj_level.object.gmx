@@ -40,10 +40,16 @@ randomize();
 //c is controller
 var cx = width div 2; 
 var cy = height div 2; 
- 
-
-
+instance_create(cx*CELL_WIDTH+16, cy*CELL_HEIGHT+16, obj_timer);
 instance_create(cx*CELL_WIDTH+16, cy*CELL_HEIGHT+16, obj_player);
+if (global.twoplayer = true) {
+    instance_create(cx*CELL_WIDTH+16, cy*CELL_HEIGHT+16, obj_p2);
+    global.objects = true;
+}   
+if (global.objects = true) {
+    instance_create(x,y, obj_scorep1d); 
+    instance_create(x,y, obj_scorep2d); 
+}
 var ods = irandom(3); 
 if (ods = 0) {
     instance_create(96, 96, obj_finish);

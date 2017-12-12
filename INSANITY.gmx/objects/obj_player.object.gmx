@@ -31,27 +31,12 @@ var vspd = (keyboard_check(vk_down)-keyboard_check(vk_up))*spd;
 
 move(hspd,vspd); 
 
-if (global.enter = true) {
-    instance_create(obj_player.x, obj_player.y, obj_p2); 
-    global.enter = false;
-}
-if (global.finish = true) {
-    instance_create(obj_player.x, obj_player.y, obj_p2);
-    global.finish = false; 
-}
 
 if keyboard_check(ord('N'))
    {
    room_goto(game_over);
    }
 
- 
-
-if (global.twoplayer = true) {
-    if (place_meeting(x, y, obj_finish)) {
-        global.points1 += 50;
-    }
-}
 
 
 
