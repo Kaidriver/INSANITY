@@ -37,7 +37,9 @@ if keyboard_check(ord('N'))
    room_goto(game_over);
    }
 
-
+if (global.level1 = true) {
+    sprite_index = sprite27; 
+}
 
 
 </string>

@@ -32,6 +32,21 @@ if(place_meeting(x, y+vspd, obj_roadblock)) {
     }
     vspd = 0; 
 }
+if(place_meeting(x+hspd, y, obj_tile)) {
+    while(!place_meeting(x+sign(hspd), y, obj_tile)) {
+        x += sign(hspd);
+    }
+    hspd = 0; 
+}
+
+  
+
+if(place_meeting(x, y+vspd, obj_tile)) {
+    while(!place_meeting(x, y+sign(vspd), obj_tile)) {
+        y += sign(vspd);
+    }
+    vspd = 0; 
+}
 x += hspd; 
 y += vspd; 
 

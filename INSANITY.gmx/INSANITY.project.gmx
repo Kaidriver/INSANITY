@@ -9,6 +9,7 @@
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_player</sprite>
+    <sprite>sprites\sprite27</sprite>
     <sprite>sprites\spr_p2</sprite>
     <sprite>sprites\spr_teleportr1</sprite>
     <sprite>sprites\spr_teleportr2</sprite>

@@ -130,7 +130,7 @@ for (var yy = 0; yy &lt; height; yy++) {
             instance_create(xx*CELL_WIDTH, yy*CELL_HEIGHT,obj_wall); 
         
         } else if (grid[# xx, yy] == VOID) {
-            instance_create(xx*CELL_WIDTH, yy*CELL_HEIGHT,obj_wall); 
+            instance_create(xx*CELL_WIDTH, yy*CELL_HEIGHT,obj_tile); 
         }
         
     }

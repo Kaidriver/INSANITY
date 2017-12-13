@@ -26,7 +26,9 @@
           <argument>
             <kind>1</kind>
             <string>global.level1 = true; 
+
 room_goto(level_1);
+
  
 </string>
           </argument>
