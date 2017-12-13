@@ -40,9 +40,8 @@ global.points1 = 0;
 global.points2 = 0;
 global.pitch = 1;
 global.objects = false;
-global.state = state_pup;
 global.pup = false;
-global.pupp = false;
+global.pup2 = false;
 </string>
           </argument>
         </arguments>

@@ -38,7 +38,7 @@ y += vspd;
 if (place_meeting(x,y,obj_finish)) {
     
     room_restart();
-    global.state = state_pup;
+    global.pup = true; 
     global.points1 += 50;
     global.pitch += .1; 
     audio_sound_pitch(sound_bkg, global.pitch);

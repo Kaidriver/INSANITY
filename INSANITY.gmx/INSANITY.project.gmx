@@ -46,8 +46,6 @@
     <script>scripts\move2.gml</script>
     <script>scripts\scr_save_game.gml</script>
     <script>scripts\scr_load_game.gml</script>
-    <script>scripts\state_pup.gml</script>
-    <script>scripts\state_pupp.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\font_main</font>
@@ -97,6 +95,7 @@
     <object>objects\obj_level</object>
     <object>objects\obj_roadblock</object>
     <object>objects\obj_pup</object>
+    <object>objects\obj_pup2</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_initalizer</room>

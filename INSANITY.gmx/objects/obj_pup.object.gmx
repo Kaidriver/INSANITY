@@ -8,7 +8,7 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-    <event eventtype="2" enumb="0">
+    <event eventtype="0" enumb="0">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.pup = false;
+            <string>timer = .2;
 </string>
           </argument>
         </arguments>
@@ -48,20 +48,30 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>obj_pup.x = obj_player.x
-obj_pup.y = obj_player.y
+            <string>x = obj_player.x
+y = obj_player.y
  
 if (global.pup = true) &amp;&amp; (keyboard_check(ord('L'))){
-    
+    timer -= delta_time/1000000; 
     if (place_meeting(x, y, obj_wall)) {
         with (instance_place(x, y, obj_wall)) {
         instance_destroy();
+      }
+    }
+    if (place_meeting(x, y, obj_roadblock)) {
+        with (instance_place(x, y, obj_roadblock)) {
+        instance_destroy();
     }
     
-  } 
-  global.pup = false;
+   } 
 }
+ 
 
+
+if (timer &lt; 0) {
+    global.pup = false; 
+   
+}
  
  
 </string>

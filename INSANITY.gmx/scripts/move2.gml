@@ -40,6 +40,7 @@ if (place_meeting(x,y,obj_finish)) {
     room_restart();
     global.points2 += 50;
     global.pitch += .1; 
+    global.pup2 = true;
     audio_sound_pitch(sound_bkg, global.pitch);
     if (global.timer2 = true){
         global.time += 20

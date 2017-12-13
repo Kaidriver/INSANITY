@@ -42,8 +42,10 @@ var cx = width div 2;
 var cy = height div 2; 
 instance_create(cx*CELL_WIDTH+16, cy*CELL_HEIGHT+16, obj_timer);
 instance_create(cx*CELL_WIDTH+16, cy*CELL_HEIGHT+16, obj_player);
+
 if (global.twoplayer = true) {
     instance_create(cx*CELL_WIDTH+16, cy*CELL_HEIGHT+16, obj_p2);
+    instance_create(cx*CELL_WIDTH+16, cy*CELL_HEIGHT+16, obj_pup2);
     global.objects = true;
 }   
 if (global.objects = true) {
@@ -128,7 +130,7 @@ for (var yy = 0; yy &lt; height; yy++) {
             instance_create(xx*CELL_WIDTH, yy*CELL_HEIGHT,obj_wall); 
         
         } else if (grid[# xx, yy] == VOID) {
-            instance_create(xx*CELL_WIDTH, yy*CELL_HEIGHT,obj_tile); 
+            instance_create(xx*CELL_WIDTH, yy*CELL_HEIGHT,obj_wall); 
         }
         
     }
