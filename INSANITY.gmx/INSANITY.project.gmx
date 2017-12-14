@@ -9,7 +9,6 @@
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_player</sprite>
-    <sprite>sprites\sprite27</sprite>
     <sprite>sprites\spr_p2</sprite>
     <sprite>sprites\spr_teleportr1</sprite>
     <sprite>sprites\spr_teleportr2</sprite>
@@ -53,60 +52,66 @@
     <font>fonts\font1</font>
   </fonts>
   <objects name="objects">
-    <object>objects\obj_player</object>
-    <object>objects\obj_p2</object>
-    <object>objects\obj_wall</object>
-    <object>objects\obj_tile</object>
-    <object>objects\obj_floor</object>
-    <object>objects\obj_finish</object>
-    <object>objects\obj_finish2</object>
-    <object>objects\obj_finish3</object>
-    <object>objects\obj_teleportr1</object>
-    <object>objects\obj_teleportr2</object>
-    <object>objects\obj_scorep2d</object>
-    <object>objects\obj_scorep1d</object>
-    <object>objects\obj_scoredisplay</object>
-    <object>objects\obj_timer</object>
-    <object>objects\obj_gameover</object>
-    <object>objects\obj_timervar</object>
-    <object>objects\obj_endless</object>
-    <object>objects\obj_howto</object>
-    <object>objects\obj_2pmode</object>
-    <object>objects\obj_levels</object>
-    <object>objects\obj_lvl1</object>
-    <object>objects\obj_lvl2</object>
-    <object>objects\obj_lvl3</object>
-    <object>objects\obj_lock1</object>
-    <object>objects\obj_lock2</object>
-    <object>objects\obj_initializer</object>
-    <object>objects\obj_enemylvl1</object>
-    <object>objects\obj_enemy2</object>
-    <object>objects\obj_enemy3</object>
-    <object>objects\obj_enemy4</object>
-    <object>objects\obj_enemy5</object>
-    <object>objects\obj_gameoverpic</object>
-    <object>objects\obj_gameoverlvl</object>
-    <object>objects\obj_sound</object>
-    <object>objects\obj_cont</object>
-    <object>objects\obj_ng</object>
-    <object>objects\obj_scores</object>
-    <object>objects\obj_p1w</object>
-    <object>objects\obj_p2w</object>
-    <object>objects\obj_leaderboardclick</object>
-    <object>objects\obj_level</object>
-    <object>objects\obj_roadblock</object>
-    <object>objects\obj_pup</object>
-    <object>objects\obj_pup2</object>
+    <objects name="Level_Assets">
+      <object>objects\obj_wall</object>
+      <object>objects\obj_roadblock</object>
+      <object>objects\obj_floor</object>
+      <object>objects\obj_finish</object>
+      <object>objects\obj_finish2</object>
+      <object>objects\obj_finish3</object>
+      <object>objects\obj_tile</object>
+      <object>objects\obj_teleportr2</object>
+      <object>objects\obj_teleportr1</object>
+    </objects>
+    <objects name="Level_NoSprite">
+      <object>objects\obj_scorep1d</object>
+      <object>objects\obj_scorep2d</object>
+      <object>objects\obj_timer</object>
+      <object>objects\obj_scoredisplay</object>
+      <object>objects\obj_gameover</object>
+      <object>objects\obj_timervar</object>
+      <object>objects\obj_initializer</object>
+      <object>objects\obj_sound</object>
+      <object>objects\obj_level</object>
+      <object>objects\obj_scores</object>
+      <object>objects\obj_leaderboardclick</object>
+    </objects>
+    <objects name="Level_Buttons">
+      <object>objects\obj_endless</object>
+      <object>objects\obj_howto</object>
+      <object>objects\obj_levels</object>
+      <object>objects\obj_2pmode</object>
+      <object>objects\obj_lvl1</object>
+      <object>objects\obj_lvl2</object>
+      <object>objects\obj_lvl3</object>
+      <object>objects\obj_lock1</object>
+      <object>objects\obj_lock2</object>
+      <object>objects\obj_gameoverlvl</object>
+      <object>objects\obj_gameoverpic</object>
+      <object>objects\obj_ng</object>
+      <object>objects\obj_p1w</object>
+      <object>objects\obj_p2w</object>
+      <object>objects\obj_cont</object>
+    </objects>
+    <objects name="PLAYER&amp;ENEMIES">
+      <object>objects\obj_player</object>
+      <object>objects\obj_p2</object>
+      <object>objects\obj_enemylvl1</object>
+      <object>objects\obj_enemy2</object>
+      <object>objects\obj_enemy3</object>
+      <object>objects\obj_enemy4</object>
+      <object>objects\obj_enemy5</object>
+      <object>objects\obj_enemy6</object>
+      <object>objects\obj_enemy7</object>
+      <object>objects\obj_enemyh</object>
+      <object>objects\obj_pup</object>
+      <object>objects\obj_pup2</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_initalizer</room>
     <room>rooms\start</room>
     <room>rooms\room0</room>
-    <room>rooms\room1</room>
-    <room>rooms\room2</room>
-    <room>rooms\room3</room>
-    <room>rooms\room4</room>
-    <room>rooms\room5</room>
     <room>rooms\game_over</room>
     <room>rooms\game_overlvl</room>
     <room>rooms\leaderboard</room>
@@ -115,6 +120,7 @@
     <room>rooms\level_2</room>
     <room>rooms\p1w</room>
     <room>rooms\p2w</room>
+    <room>rooms\level_3</room>
   </rooms>
   <constants number="5">
     <constant name="CELL_WIDTH">32</constant>
