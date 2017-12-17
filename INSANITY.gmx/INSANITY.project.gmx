@@ -25,6 +25,7 @@
     <sprite>sprites\spr_lvl1</sprite>
     <sprite>sprites\spr_lvl2</sprite>
     <sprite>sprites\spr_lvl3</sprite>
+    <sprite>sprites\sprite27</sprite>
     <sprite>sprites\spr_lock</sprite>
     <sprite>sprites\spr_enemy</sprite>
     <sprite>sprites\spr_gameover_2</sprite>
@@ -59,6 +60,7 @@
       <object>objects\obj_finish</object>
       <object>objects\obj_finish2</object>
       <object>objects\obj_finish3</object>
+      <object>objects\obj_finish4</object>
       <object>objects\obj_tile</object>
       <object>objects\obj_teleportr2</object>
       <object>objects\obj_teleportr1</object>
@@ -102,6 +104,7 @@
       <object>objects\obj_enemy4</object>
       <object>objects\obj_enemy5</object>
       <object>objects\obj_enemy6</object>
+      <object>objects\obj_enemylvl4</object>
       <object>objects\obj_enemy7</object>
       <object>objects\obj_enemyh</object>
       <object>objects\obj_pup</object>
@@ -118,9 +121,10 @@
     <room>rooms\levelsroom</room>
     <room>rooms\level_1</room>
     <room>rooms\level_2</room>
+    <room>rooms\level_3</room>
     <room>rooms\p1w</room>
     <room>rooms\p2w</room>
-    <room>rooms\level_3</room>
+    <room>rooms\level_4</room>
   </rooms>
   <constants number="5">
     <constant name="CELL_WIDTH">32</constant>

@@ -84,6 +84,14 @@ if (place_meeting(x,y, obj_finish3)) {
     global.level2 = false;
 }
 
+if (place_meeting(x,y, obj_finish4)){
+    room_goto(levelsroom);
+    global.unlock4 = true
+    global.level1 = false;
+    global.level2 = false;
+    global.level3 = false;
+}
+
 if (place_meeting(x,y,obj_teleportr1)) {
     obj_player.x = obj_teleportr2.x 
     obj_player.y = obj_teleportr2.y
