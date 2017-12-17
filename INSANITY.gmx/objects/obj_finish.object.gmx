@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>depth = -y; 
+            <string>//Appear on top of any obstacles
+depth = -y; 
 </string>
           </argument>
         </arguments>
@@ -48,7 +49,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(place_meeting(x, y, obj_tile)) {
+            <string>//If spawns outside of maze, goes to nearest wall
+if(place_meeting(x, y, obj_tile)) {
    move_towards_point(obj_wall.x, obj_wall.y, 100);
 }
 else {

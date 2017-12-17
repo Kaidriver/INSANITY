@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>directn = -90;
+            <string>//Set direction to -90
+directn = -90;
 
 </string>
           </argument>
@@ -49,10 +50,13 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (global.level3 = true) {
-    if(place_meeting(x,y + vspeed, obj_wall))
+            <string>//if in level 3
+if (global.level3 == true) {
+    //When hit wall, bounce
+    if(place_meeting(x,y + vspeed, obj_wall)) 
     directn = -direction;
     motion_set(directn, 10);
+    
 }
 
  

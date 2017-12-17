@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (global.endless = true) {
+            <string>//If endless is true, set alarm to 3 seconds
+if (global.endless == true) {
     alarm[1] = room_speed*3;
 }
 </string>
@@ -50,7 +51,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>room_goto(leaderboard);
+            <string>//Goes to leaderboard once 3 seconds is up
+room_goto(leaderboard);
 </string>
           </argument>
         </arguments>
@@ -73,7 +75,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (global.twoplayer = true) {
+            <string>//If twoplayermode
+if (global.twoplayer == true) {
+    //Go to main menu
     room_goto(start);
 }
 </string>

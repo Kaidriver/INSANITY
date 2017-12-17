@@ -25,69 +25,85 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>room_width = (CELL_WIDTH/16) * 1600;
+            <string>//create random room
+//set room width and height to 1600x 900
+//CELL_WIDTH = 32
+//CELL_HEIGHT = 32
+//FLOOR = -5
+//WALL = -6
+//VOID = -7
+room_width = (CELL_WIDTH/16) * 1600;
 room_height = (CELL_HEIGHT/16) * 900;
 
+//set grid width and height 
 var width = room_width div CELL_WIDTH; 
 var height = room_height div CELL_HEIGHT;
 
+//create grid
 grid = ds_grid_create(width, height);
 
+//fill grid with void
 ds_grid_set_region(grid, 0, 0, width-1, height-1, VOID); 
+
 
 randomize(); 
 
 //c is controller
 var cx = width div 2; 
 var cy = height div 2; 
+//create timer in room and player in center of room
 instance_create(cx*CELL_WIDTH+16, cy*CELL_HEIGHT+16, obj_timer);
 instance_create(cx*CELL_WIDTH+16, cy*CELL_HEIGHT+16, obj_player);
 
-if (global.twoplayer = true) {
+//create player 2 and powerup2 if in twoplayer mode
+if (global.twoplayer == true) {
     instance_create(cx*CELL_WIDTH+16, cy*CELL_HEIGHT+16, obj_p2);
     instance_create(cx*CELL_WIDTH+16, cy*CELL_HEIGHT+16, obj_pup2);
     global.objects = true;
 }   
-if (global.objects = true) {
+//create scoreboard for p1 and p2
+if (global.objects == true) {
     instance_create(x,y, obj_scorep1d); 
     instance_create(x,y, obj_scorep2d); 
 }
+//spawn finish in random corner of room
 var ods = irandom(3); 
-if (ods = 0) {
+if (ods == 0) {
     instance_create(96, 96, obj_finish);
 }
-else if (ods = 1) {
+else if (ods == 1) {
     instance_create(96, 1536, obj_finish);
 }
-else if (ods = 2) {
+else if (ods == 2) {
     instance_create(2880, 96, obj_finish);
 }
-else if (ods = 3) {
+else if (ods == 3) {
     instance_create(2880, 1536, obj_finish);
 }
+//random direction for carver
 var cdir = irandom(3); 
 
-var odds = 3;
-
+var odds = 5;
+//repeat this 1000 times, create room
 repeat (10000) {
-    
+    //create floor at carver postion
     grid[# cx, cy] = FLOOR;
-    
-    if (irandom(odds) = odds) {
+    //randomize direction
+    if (irandom(odds) == odds) {
         cdir = irandom(3);
     }
-    
+    //move carver
     var xdir = lengthdir_x(1 , cdir*90);
     var ydir = lengthdir_y(1, cdir*90); 
     cx += xdir;
     cy += ydir;
-    
+    //keep carver from going outside room
     cx = clamp(cx, 1, width-2);
     cy = clamp(cy, 1, height-2);
     
     
 }
-
+//fill carving with wall
 for (var yy = 1; yy &lt; height - 1; yy++) {
     for (var xx = 1; xx &lt; width - 1; xx++) {
         if (grid[# xx, yy] = FLOOR) {
@@ -112,23 +128,26 @@ for (var yy = 1; yy &lt; height - 1; yy++) {
     }
 }
 
+//actually draw out level
 for (var yy = 0; yy &lt; height; yy++) {
     for (var xx = 0; xx &lt; width; xx++) {
+        
         if (grid[# xx, yy] == FLOOR) {
-           
+            //create floor tiles
             instance_create(xx*CELL_WIDTH, yy*CELL_HEIGHT,obj_floor); 
-            var odd = 5;
+            var odd = 4;
             var rx = xx*CELL_WIDTH+CELL_WIDTH/2;
             var ry = yy*CELL_HEIGHT+CELL_HEIGHT/2;
+            //create roadblocks
             if (point_distance(rx,ry,obj_player.x, obj_player.y) &gt; 160 &amp;&amp; point_distance(rx,ry,obj_finish.x, obj_finish.y) &gt; 160 &amp;&amp; irandom(odd) == odd) {
                 instance_create(rx, ry, obj_roadblock); 
             }
             
-            
+        //create wall tiles
         } else if (grid[# xx, yy] == WALL) {
         
             instance_create(xx*CELL_WIDTH, yy*CELL_HEIGHT,obj_wall); 
-        
+        //create void tiles
         } else if (grid[# xx, yy] == VOID) {
             instance_create(xx*CELL_WIDTH, yy*CELL_HEIGHT,obj_tile); 
         }
@@ -140,7 +159,7 @@ for (var yy = 0; yy &lt; height; yy++) {
         </arguments>
       </action>
     </event>
-    <event eventtype="9" enumb="32">
+    <event eventtype="5" enumb="32">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -157,7 +176,7 @@ for (var yy = 0; yy &lt; height; yy++) {
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>room_restart();
+            <string>room_restart(); 
 </string>
           </argument>
         </arguments>

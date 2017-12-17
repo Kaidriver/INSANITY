@@ -25,7 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (global.unlock2 = true) {
+            <string>//If player completes level1
+if (global.unlock2 == true) {
+    //Remove lock on level 2
     instance_destroy();
 }
 </string>

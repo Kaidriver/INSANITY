@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (global.level1 = true) {
+            <string>//Go towards player if  in level 1
+if (global.level1 == true) {
     move_towards_point(obj_player.x, obj_player.y, 9); 
 }
  

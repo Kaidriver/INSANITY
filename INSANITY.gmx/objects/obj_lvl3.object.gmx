@@ -25,7 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (global.unlock3 = true) {
+            <string>//Checks if last level is completed
+if (global.unlock3 == true) {
+    //Goes to level if it is
     room_goto(level_3);
     global.level3 = true;
 

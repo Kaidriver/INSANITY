@@ -25,12 +25,17 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.enter = true;
+            <string>//Enables timer
 global.timer = true
+//Enables 2playermode
 global.twoplayer = true;
+//Enables powerup for player one
 global.pup = true;
+//Enables powerup for player two
 global.pup2 = true;
+//Goes to 2playermode room
 room_goto(room0);
+//Set time to 60 seconds
 global.time = 60;
 
 

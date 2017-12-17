@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.enter = false;
+            <string>//Initilizes all global variables  
 global.finish = false;
 global.timer = false; 
 global.timer2 = false;
