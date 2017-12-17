@@ -25,10 +25,13 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(file_exists("Save.sav")) {
+            <string>//Delete save file  
+if(file_exists("Save.sav")) {
     file_delete("Save.sav");
 }
+//Clear leaderboard
 highscore_clear();
+//Go to main menu
 room_goto(start);
 
 </string>

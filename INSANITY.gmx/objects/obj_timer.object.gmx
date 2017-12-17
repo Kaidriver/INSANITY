@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>depth = -y; 
+            <string>//Appears in front of everything
+depth = -y; 
 </string>
           </argument>
         </arguments>
@@ -48,27 +49,29 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (global.timer2 = true){
+            <string>//Starts timer in endless mode
+if (global.timer2 == true){
     global.time = global.time - delta_time/1000000;
-    global.show_time = ceil(global.time);
+   
+    //If time reaches 0, gameover
     if (global.time &lt; 0) {
         room_goto(game_over)
         
     }
 }
-
-if (global.timer = true) { 
+//Starts time in 2playermode
+if (global.timer == true) { 
     global.time = global.time - delta_time/1000000;
-    global.show_time = ceil(global.time);
+   
 
     if (global.time &lt; 0) {
-        
+        //Player one has more points when time reaches 0, player one wins
         if (global.points1 &gt; global.points2) {
             
             room_goto(p1w)
         
         } 
-        
+        //Player two has more points when time reaches 0, player two wins
         if (global.points2 &gt; global.points1) {
             
             room_goto(p2w)
@@ -101,10 +104,11 @@ if (global.timer = true) {
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
+            <string>//Set font to font_main and color to red 
 draw_set_color(c_red); 
 draw_set_font(font_main);
-draw_text_transformed(room_width*(3/5), room_height*(1/25),"Time: " + string(global.show_time),2, 2, image_angle)
+//Draw text at specified location, doubled the size 
+draw_text_transformed(room_width*(3/5), room_height*(1/25),"Time: " + string(global.time),2, 2, image_angle)
  
 </string>
           </argument>

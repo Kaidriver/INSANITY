@@ -68,10 +68,7 @@
       <object>objects\obj_scorep2d</object>
       <object>objects\obj_timer</object>
       <object>objects\obj_scoredisplay</object>
-      <object>objects\obj_gameover</object>
-      <object>objects\obj_timervar</object>
       <object>objects\obj_initializer</object>
-      <object>objects\obj_sound</object>
       <object>objects\obj_level</object>
       <object>objects\obj_scores</object>
       <object>objects\obj_leaderboardclick</object>

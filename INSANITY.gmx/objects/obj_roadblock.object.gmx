@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>depth = -y; 
+            <string>//Roadblock object to on top of floor object
+depth = -y; 
 </string>
           </argument>
         </arguments>

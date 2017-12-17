@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>script_execute(scr_load_game); 
+            <string>//Execute load game script
+script_execute(scr_load_game); 
 </string>
           </argument>
         </arguments>

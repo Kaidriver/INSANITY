@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>timer = .2;
+            <string>//Set timer to .1 seconds
+timer = .1;
 </string>
           </argument>
         </arguments>
@@ -48,11 +49,14 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>x = obj_player.x
+            <string>//Make powerup thing be on player
+x = obj_player.x
 y = obj_player.y
- 
-if (global.pup = true) &amp;&amp; (keyboard_check(ord('L'))){
+//If powerup is true and l is pressed
+if (global.pup == true) &amp;&amp; (keyboard_check(ord('L'))){
+    //start countdown timer
     timer -= delta_time/1000000; 
+    //if powerup touches wall or roadblock, destroy
     if (place_meeting(x, y, obj_wall)) {
         with (instance_place(x, y, obj_wall)) {
         instance_destroy();
@@ -67,9 +71,11 @@ if (global.pup = true) &amp;&amp; (keyboard_check(ord('L'))){
 }
  
 
-
+//if timer runs out, disappear and powerup equals false
 if (timer &lt; 0) {
+    visible = false;
     global.pup = false; 
+   
    
 }
  

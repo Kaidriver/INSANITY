@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>timer = .1;
+            <string>//Set timer to .1 seconds
+timer = .1;
 </string>
           </argument>
         </arguments>
@@ -42,17 +43,20 @@
         <exetype>2</exetype>
         <functionname></functionname>
         <codestring></codestring>
-        <whoName>self</whoName>
+        <whoName>obj_pup2</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
             <kind>1</kind>
-            <string> x = obj_p2.x
+            <string>//be ontop of player at all times
+x = obj_p2.x
 y = obj_p2.y
- 
-if (global.pup2 = true) &amp;&amp; (keyboard_check(ord('F'))){
+//if powerup is true and f is pressed
+if (global.pup2 == true) &amp;&amp; (keyboard_check(ord('F'))){
+    //start timer countdown
     timer -= delta_time/1000000; 
+    //if touch roadblock or wall, destroy
     if (place_meeting(x, y, obj_wall)) {
         with (instance_place(x, y, obj_wall)) {
         instance_destroy();
@@ -67,8 +71,9 @@ if (global.pup2 = true) &amp;&amp; (keyboard_check(ord('F'))){
   } 
  
 }
-
+//if timer runs out, disappear and powerup equals false
 if (timer &lt; 0) {
+    visible = false;
     global.pup2 = false; 
    
 }

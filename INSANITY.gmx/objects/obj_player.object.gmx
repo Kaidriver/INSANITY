@@ -25,20 +25,42 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>var spd = 10
+            <string>//Set speed
+var spd = 10
+//Gets value of horizontal speed and vertical speed depending on arrow key press
 var hspd = (keyboard_check(vk_right)-keyboard_check(vk_left))*spd; 
 var vspd = (keyboard_check(vk_down)-keyboard_check(vk_up))*spd; 
-
+//Execute move script and send horizontal speed and vertical speed values
 move(hspd,vspd); 
 
 
-if keyboard_check(ord('N'))
-   {
-   room_goto(game_over);
-   }
+ 
  
 
 
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="5" enumb="65">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>room_goto(game_over); 
 </string>
           </argument>
         </arguments>
@@ -61,7 +83,8 @@ if keyboard_check(ord('N'))
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>script_execute(scr_save_game);
+            <string>//Save game if enter room 
+script_execute(scr_save_game);
 </string>
           </argument>
         </arguments>

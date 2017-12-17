@@ -25,21 +25,15 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string> 
+            <string>//set speed to 10
 global.spd2 = 10;
-
+//Gets value of horizontal speed and vertical speed depending on arrow key press
 var hspd = (keyboard_check(ord('D'))-keyboard_check(ord('A')))*global.spd2; 
 var vspd = (keyboard_check(ord('S'))-keyboard_check(ord('W')))*global.spd2; 
+//Execute move script and send horizontal speed and vertical speed values
 move2(hspd, vspd); 
 
  
-
-if keyboard_check(ord('N'))
-   {
-   room_goto(game_over);
-   }
-
-
 </string>
           </argument>
         </arguments>

@@ -25,10 +25,15 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>room_goto(room0);
+            <string>//Goes to endless maze room  
+room_goto(room0);
+//Sets endless to true
 global.endless = true;
+//Enables timer
 global.timer2 = true;
+//Sets timer to 45 seconds
 global.time = 45;
+//Activates powerup
 global.pup = true;
 </string>
           </argument>

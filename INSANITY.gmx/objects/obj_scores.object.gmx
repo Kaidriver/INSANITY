@@ -25,7 +25,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string> draw_highscore(192,448,832,704)
+            <string>//Draws highscores
+draw_text(725, 50, "High Scores"); 
+draw_highscore(100, 100, room_width - 100, room_height - 100)
+
 </string>
           </argument>
         </arguments>

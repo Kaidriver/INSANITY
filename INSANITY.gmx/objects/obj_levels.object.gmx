@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>room_goto(levelsroom);
+            <string>//Goes to levels room if clicked on
+room_goto(levelsroom);
 </string>
           </argument>
         </arguments>
