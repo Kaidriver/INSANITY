@@ -25,7 +25,6 @@
     <sprite>sprites\spr_lvl1</sprite>
     <sprite>sprites\spr_lvl2</sprite>
     <sprite>sprites\spr_lvl3</sprite>
-    <sprite>sprites\sprite27</sprite>
     <sprite>sprites\spr_lock</sprite>
     <sprite>sprites\spr_enemy</sprite>
     <sprite>sprites\spr_gameover_2</sprite>
@@ -39,10 +38,12 @@
     <sprite>sprites\spr_level4</sprite>
     <sprite>sprites\spr_level5</sprite>
     <sprite>sprites\spr_level6</sprite>
+    <sprite>sprites\spr_how_to_play</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
     <background>background\background2</background>
+    <background>background\background3</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -103,6 +104,9 @@
       <object>objects\obj_level4</object>
       <object>objects\obj_level5</object>
       <object>objects\obj_level6</object>
+      <object>objects\obj_playersprite</object>
+      <object>objects\obj_telesprite</object>
+      <object>objects\obj_teleportendsprite</object>
     </objects>
     <objects name="PLAYER&amp;ENEMIES">
       <object>objects\obj_player</object>
@@ -134,6 +138,7 @@
     <room>rooms\p1w</room>
     <room>rooms\p2w</room>
     <room>rooms\level_4</room>
+    <room>rooms\How_To_Play</room>
   </rooms>
   <constants number="5">
     <constant name="CELL_WIDTH">32</constant>
