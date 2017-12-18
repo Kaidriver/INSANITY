@@ -36,6 +36,9 @@
     <sprite>sprites\sprite21</sprite>
     <sprite>sprites\spr_leaderboardclick</sprite>
     <sprite>sprites\spr_pup</sprite>
+    <sprite>sprites\spr_level4</sprite>
+    <sprite>sprites\spr_level5</sprite>
+    <sprite>sprites\spr_level6</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
@@ -61,6 +64,9 @@
       <object>objects\obj_finish2</object>
       <object>objects\obj_finish3</object>
       <object>objects\obj_finish4</object>
+      <object>objects\obj_finish5</object>
+      <object>objects\obj_finish6</object>
+      <object>objects\obj_finish7</object>
       <object>objects\obj_tile</object>
       <object>objects\obj_teleportr2</object>
       <object>objects\obj_teleportr1</object>
@@ -85,12 +91,18 @@
       <object>objects\obj_lvl3</object>
       <object>objects\obj_lock1</object>
       <object>objects\obj_lock2</object>
+      <object>objects\obj_lock3</object>
+      <object>objects\obj_lock4</object>
+      <object>objects\obj_lock5</object>
       <object>objects\obj_gameoverlvl</object>
       <object>objects\obj_gameoverpic</object>
       <object>objects\obj_ng</object>
       <object>objects\obj_p1w</object>
       <object>objects\obj_p2w</object>
       <object>objects\obj_cont</object>
+      <object>objects\obj_level4</object>
+      <object>objects\obj_level5</object>
+      <object>objects\obj_level6</object>
     </objects>
     <objects name="PLAYER&amp;ENEMIES">
       <object>objects\obj_player</object>

@@ -86,11 +86,42 @@ if (place_meeting(x,y, obj_finish3)) {
 
 if (place_meeting(x,y, obj_finish4)){
     room_goto(levelsroom);
-    global.unlock4 = true
+    global.unlock4 = true;
     global.level1 = false;
     global.level2 = false;
     global.level3 = false;
 }
+
+if (place_meeting(x,y, obj_finish5)){
+    room_goto(levelsroom);
+    global.unlock5 = true;
+    global.level1 = false;
+    global.level2 = false;
+    global.level3 = false;
+    global.level4 = false;
+}
+
+if (place_meeting(x,y, obj_finish6)){
+    room_goto(levelsroom);
+    global.unlock6 = true;
+    global.level1 = false;
+    global.level2 = false;
+    global.level3 = false;
+    global.level4 = false;
+    global.level5 = false; 
+}
+
+if (place_meeting(x,y, obj_finish7)){
+    room_goto(levelsroom);
+    global.unlock = true;
+    global.level1 = false;
+    global.level2 = false;
+    global.level3 = false;
+    global.level4 = false;
+    global.level5 = false; 
+    global.level6 = false;
+}
+
 
 if (place_meeting(x,y,obj_teleportr1)) {
     obj_player.x = obj_teleportr2.x 
