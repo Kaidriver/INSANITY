@@ -65,8 +65,8 @@
       <object>objects\obj_finishlvl1</object>
       <object>objects\obj_finishlvl2</object>
       <object>objects\obj_finishlvl3</object>
-      <object>objects\obj_finishlvl4</object>
       <object>objects\obj_finishlvl5</object>
+      <object>objects\obj_finishlvl4</object>
       <object>objects\obj_finishlvl6</object>
       <object>objects\obj_tile</object>
       <object>objects\obj_teleportr2</object>
@@ -120,6 +120,8 @@
       <object>objects\obj_enemylvl4</object>
       <object>objects\obj_enemy7</object>
       <object>objects\obj_enemyh</object>
+      <object>objects\obj_lvl5_2_</object>
+      <object>objects\obj_lvl5</object>
       <object>objects\obj_pup</object>
       <object>objects\obj_pup2</object>
     </objects>
@@ -139,6 +141,7 @@
     <room>rooms\p2w</room>
     <room>rooms\level_4</room>
     <room>rooms\How_To_Play</room>
+    <room>rooms\level_5</room>
   </rooms>
   <constants number="5">
     <constant name="CELL_WIDTH">32</constant>
