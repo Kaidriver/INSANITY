@@ -61,12 +61,12 @@
       <object>objects\obj_roadblock</object>
       <object>objects\obj_floor</object>
       <object>objects\obj_finish</object>
-      <object>objects\obj_finish2</object>
-      <object>objects\obj_finish3</object>
-      <object>objects\obj_finish4</object>
-      <object>objects\obj_finish5</object>
-      <object>objects\obj_finish6</object>
-      <object>objects\obj_finish7</object>
+      <object>objects\obj_finishlvl1</object>
+      <object>objects\obj_finishlvl2</object>
+      <object>objects\obj_finishlvl3</object>
+      <object>objects\obj_finishlvl4</object>
+      <object>objects\obj_finishlvl5</object>
+      <object>objects\obj_finishlvl6</object>
       <object>objects\obj_tile</object>
       <object>objects\obj_teleportr2</object>
       <object>objects\obj_teleportr1</object>

@@ -1,4 +1,4 @@
-///move(hspd, vspd)
+//move(hspd, vspd)
 var hspd = argument[0]
 var vspd = argument[1]
 if(place_meeting(x+hspd, y, obj_wall)) {
@@ -70,38 +70,39 @@ if (place_meeting(x,y,obj_finish)) {
      
 } 
 
-if (place_meeting(x,y, obj_finish2)) {
+if (place_meeting(x,y, obj_finishlvl1)) {
     room_goto(levelsroom);
     global.unlock2 = true;
     global.level1 = false;
     global.level2 = false;
 }
 
-if (place_meeting(x,y, obj_finish3)) {
+if (place_meeting(x,y, obj_finishlvl2)) {
     room_goto(levelsroom);
     global.unlock3 = true;
     global.level1 = false;
     global.level2 = false;
 }
 
-if (place_meeting(x,y, obj_finish4)){
+if (place_meeting(x,y, obj_finishlvl3)){
     room_goto(levelsroom);
     global.unlock4 = true;
+    global.level4 = true;
     global.level1 = false;
     global.level2 = false;
     global.level3 = false;
 }
 
-if (place_meeting(x,y, obj_finish5)){
+if (place_meeting(x,y, obj_finishlvl4)){
     room_goto(levelsroom);
     global.unlock5 = true;
     global.level1 = false;
     global.level2 = false;
     global.level3 = false;
-    global.level4 = false;
+    
 }
 
-if (place_meeting(x,y, obj_finish6)){
+if (place_meeting(x,y, obj_finishlvl5)){
     room_goto(levelsroom);
     global.unlock6 = true;
     global.level1 = false;
@@ -111,7 +112,7 @@ if (place_meeting(x,y, obj_finish6)){
     global.level5 = false; 
 }
 
-if (place_meeting(x,y, obj_finish7)){
+if (place_meeting(x,y, obj_finishlvl6)){
     room_goto(levelsroom);
     global.unlock = true;
     global.level1 = false;
