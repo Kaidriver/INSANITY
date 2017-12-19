@@ -71,6 +71,7 @@
       <object>objects\obj_tile</object>
       <object>objects\obj_teleportr2</object>
       <object>objects\obj_teleportr1</object>
+      <object>objects\obj_teleportRand</object>
     </objects>
     <objects name="Level_NoSprite">
       <object>objects\obj_scorep1d</object>
