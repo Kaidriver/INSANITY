@@ -60,7 +60,7 @@ if (place_meeting(x,y,obj_finish)) {
     //enable powerup
     global.pup2 = true; 
     //add 50 points to p1 in twoplayer mode
-    global.points1 += 50;
+    global.points2 += 50;
     //increase sound pitch by .1 times
     global.pitch += .1; 
     audio_sound_pitch(sound_bkg, global.pitch);

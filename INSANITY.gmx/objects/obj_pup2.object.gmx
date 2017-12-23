@@ -57,9 +57,10 @@ if (global.pup2 == true) &amp;&amp; (keyboard_check(ord('F'))){
     //start timer countdown
     timer -= delta_time/1000000; 
     //if touch roadblock or wall, destroy
-    if (place_meeting(x, y, obj_wall)) {
+     if (place_meeting(x, y, obj_wall)) {
         with (instance_place(x, y, obj_wall)) {
         instance_destroy();
+      }
     }
     if (place_meeting(x, y, obj_roadblock)) {
         with (instance_place(x, y, obj_roadblock)) {
@@ -68,9 +69,9 @@ if (global.pup2 == true) &amp;&amp; (keyboard_check(ord('F'))){
     
    } 
     
-  } 
+} 
  
-}
+
 //if timer runs out, disappear and powerup equals false
 if (timer &lt; 0) {
     visible = false;
