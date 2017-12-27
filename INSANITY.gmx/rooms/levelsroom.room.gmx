@@ -51,17 +51,18 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_lvl1" x="160" y="128" name="inst_C753BAFA" locked="0" code="" scaleX="0.790123462677002" scaleY="0.790123462677002" colour="4294967295" rotation="0"/>
-    <instance objName="obj_lvl2" x="672" y="128" name="inst_9A7DFB15" locked="0" code="" scaleX="0.790123462677002" scaleY="0.790123462677002" colour="4294967295" rotation="0"/>
-    <instance objName="obj_lvl3" x="1184" y="128" name="inst_B6E58D2E" locked="0" code="" scaleX="0.790123462677002" scaleY="0.790123462677002" colour="4294967295" rotation="0"/>
-    <instance objName="obj_lock1" x="704" y="160" name="inst_FD43B5D9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_lock2" x="1216" y="160" name="inst_74BB987D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_level4" x="160" y="512" name="inst_8D5E3329" locked="0" code="" scaleX="0.790123462677002" scaleY="0.790123462677002" colour="4294967295" rotation="0"/>
-    <instance objName="obj_level5" x="672" y="512" name="inst_30B1224A" locked="0" code="" scaleX="0.80246913433075" scaleY="0.80246913433075" colour="4294967295" rotation="0"/>
-    <instance objName="obj_level6" x="1184" y="512" name="inst_8D960C52" locked="0" code="" scaleX="0.80246913433075" scaleY="0.80246913433075" colour="4294967295" rotation="0"/>
-    <instance objName="obj_lock3" x="192" y="544" name="inst_0A80585B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_lock4" x="704" y="544" name="inst_460342ED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_lock5" x="1216" y="544" name="inst_9D0BAECE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_lvl1" x="192" y="192" name="inst_C753BAFA" locked="0" code="" scaleX="0.790123462677002" scaleY="0.790123462677002" colour="4294967295" rotation="0"/>
+    <instance objName="obj_lvl2" x="672" y="192" name="inst_9A7DFB15" locked="0" code="" scaleX="0.790123462677002" scaleY="0.790123462677002" colour="4294967295" rotation="0"/>
+    <instance objName="obj_lvl3" x="1184" y="192" name="inst_B6E58D2E" locked="0" code="" scaleX="0.790123462677002" scaleY="0.790123462677002" colour="4294967295" rotation="0"/>
+    <instance objName="obj_lock1" x="704" y="224" name="inst_FD43B5D9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_lock2" x="1216" y="224" name="inst_74BB987D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_level4" x="192" y="576" name="inst_8D5E3329" locked="0" code="" scaleX="0.790123462677002" scaleY="0.790123462677002" colour="4294967295" rotation="0"/>
+    <instance objName="obj_level5" x="672" y="576" name="inst_30B1224A" locked="0" code="" scaleX="0.80246913433075" scaleY="0.80246913433075" colour="4294967295" rotation="0"/>
+    <instance objName="obj_level6" x="1184" y="576" name="inst_8D960C52" locked="0" code="" scaleX="0.80246913433075" scaleY="0.80246913433075" colour="4294967295" rotation="0"/>
+    <instance objName="obj_lock3" x="224" y="608" name="inst_0A80585B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_lock4" x="704" y="608" name="inst_460342ED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_lock5" x="1216" y="608" name="inst_9D0BAECE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_arrow" x="-96" y="-96" name="inst_4CDB333B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

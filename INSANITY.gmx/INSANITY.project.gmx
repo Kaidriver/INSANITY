@@ -39,6 +39,7 @@
     <sprite>sprites\spr_level5</sprite>
     <sprite>sprites\spr_level6</sprite>
     <sprite>sprites\spr_how_to_play</sprite>
+    <sprite>sprites\spr_arrow</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
@@ -65,8 +66,8 @@
       <object>objects\obj_finishlvl1</object>
       <object>objects\obj_finishlvl2</object>
       <object>objects\obj_finishlvl3</object>
-      <object>objects\obj_finishlvl5</object>
       <object>objects\obj_finishlvl4</object>
+      <object>objects\obj_finishlvl5</object>
       <object>objects\obj_finishlvl6</object>
       <object>objects\obj_tile</object>
       <object>objects\obj_teleportr2</object>
@@ -108,21 +109,35 @@
       <object>objects\obj_playersprite</object>
       <object>objects\obj_telesprite</object>
       <object>objects\obj_teleportendsprite</object>
+      <object>objects\obj_arrow</object>
     </objects>
     <objects name="PLAYER&amp;ENEMIES">
       <object>objects\obj_player</object>
       <object>objects\obj_p2</object>
       <object>objects\obj_enemylvl1</object>
-      <object>objects\obj_enemy2</object>
-      <object>objects\obj_enemy3</object>
-      <object>objects\obj_enemy4</object>
-      <object>objects\obj_enemy5</object>
-      <object>objects\obj_enemy6</object>
-      <object>objects\obj_enemylvl4</object>
-      <object>objects\obj_enemy7</object>
-      <object>objects\obj_enemyh</object>
-      <object>objects\obj_lvl5_2_</object>
-      <object>objects\obj_lvl5</object>
+      <objects name="Level 2 enemies">
+        <object>objects\obj_enemy2</object>
+        <object>objects\obj_enemy3</object>
+        <object>objects\obj_enemy4</object>
+        <object>objects\obj_enemy5</object>
+      </objects>
+      <objects name="Level 3 enemies">
+        <object>objects\obj_enemy7</object>
+        <object>objects\obj_enemyh</object>
+        <object>objects\obj_enemy6</object>
+      </objects>
+      <objects name="Level 4 enemies">
+        <object>objects\obj_enemylvl4</object>
+      </objects>
+      <objects name="Level 5 enemies">
+        <object>objects\obj_lvl5</object>
+        <object>objects\obj_lvl5_2_</object>
+      </objects>
+      <objects name="Level 6 enemies">
+        <object>objects\obj_lvl6v</object>
+        <object>objects\obj_lvl6f</object>
+        <object>objects\obj_lvl6h</object>
+      </objects>
       <object>objects\obj_pup</object>
       <object>objects\obj_pup2</object>
     </objects>
@@ -141,8 +156,9 @@
     <room>rooms\p1w</room>
     <room>rooms\p2w</room>
     <room>rooms\level_4</room>
-    <room>rooms\How_To_Play</room>
     <room>rooms\level_5</room>
+    <room>rooms\level_6</room>
+    <room>rooms\How_To_Play</room>
   </rooms>
   <constants number="5">
     <constant name="CELL_WIDTH">32</constant>
