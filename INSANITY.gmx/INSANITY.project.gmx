@@ -40,6 +40,7 @@
     <sprite>sprites\spr_level6</sprite>
     <sprite>sprites\spr_how_to_play</sprite>
     <sprite>sprites\spr_arrow</sprite>
+    <sprite>sprites\spr_credits</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
@@ -110,6 +111,7 @@
       <object>objects\obj_telesprite</object>
       <object>objects\obj_teleportendsprite</object>
       <object>objects\obj_arrow</object>
+      <object>objects\obj_credits</object>
     </objects>
     <objects name="PLAYER&amp;ENEMIES">
       <object>objects\obj_player</object>
