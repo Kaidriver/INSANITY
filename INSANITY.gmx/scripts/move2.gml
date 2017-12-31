@@ -58,6 +58,7 @@ if (place_meeting(x,y,obj_finish)) {
     //restart, or get new room
     room_restart();
     //enable powerup
+    global.pup = true;
     global.pup2 = true; 
     //add 50 points to p1 in twoplayer mode
     global.points2 += 50;

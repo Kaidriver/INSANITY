@@ -54,6 +54,7 @@ if (place_meeting(x,y,obj_finish)) {
     
     room_restart();
     global.pup = true; 
+    global.pup2 = true;
     global.points1 += 50;
     global.pitch += .1; 
     audio_sound_pitch(sound_bkg, global.pitch);

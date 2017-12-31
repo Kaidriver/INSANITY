@@ -79,6 +79,7 @@ if (global.timer == true) {
         } 
         //If both players same score, tie
         else {
+            room_goto(Tie) 
         
         }
         

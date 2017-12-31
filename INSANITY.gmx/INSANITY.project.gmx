@@ -42,6 +42,7 @@
     <sprite>sprites\spr_how_to_play</sprite>
     <sprite>sprites\spr_arrow</sprite>
     <sprite>sprites\spr_credits</sprite>
+    <sprite>sprites\spr_tie</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
@@ -115,6 +116,7 @@
       <object>objects\obj_teleportendsprite</object>
       <object>objects\obj_arrow</object>
       <object>objects\obj_credits</object>
+      <object>objects\obj_tie</object>
     </objects>
     <objects name="PLAYER&amp;ENEMIES">
       <object>objects\obj_player</object>
@@ -165,6 +167,7 @@
     <room>rooms\level_6</room>
     <room>rooms\How_To_Play</room>
     <room>rooms\credits</room>
+    <room>rooms\Tie</room>
   </rooms>
   <constants number="5">
     <constant name="CELL_WIDTH">32</constant>
