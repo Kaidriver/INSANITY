@@ -37,7 +37,9 @@ global.pup2 = true;
 room_goto(room0);
 //Set time to 60 seconds
 global.time = 60;
-
+//Reset scores
+global.points1 = 0;
+global.points2 = 0;
 
 
 </string>
