@@ -47,6 +47,7 @@
     <background>background\background1</background>
     <background>background\background2</background>
     <background>background\background3</background>
+    <background>background\background4</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -163,6 +164,7 @@
     <room>rooms\level_5</room>
     <room>rooms\level_6</room>
     <room>rooms\How_To_Play</room>
+    <room>rooms\credits</room>
   </rooms>
   <constants number="5">
     <constant name="CELL_WIDTH">32</constant>
