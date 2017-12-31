@@ -28,6 +28,7 @@
     <sprite>sprites\spr_lock</sprite>
     <sprite>sprites\spr_enemy</sprite>
     <sprite>sprites\spr_gameover_2</sprite>
+    <sprite>sprites\spr_gameover_endless</sprite>
     <sprite>sprites\spr_cont</sprite>
     <sprite>sprites\spr_ng</sprite>
     <sprite>sprites\spr_p1wins</sprite>
@@ -99,6 +100,7 @@
       <object>objects\obj_lock5</object>
       <object>objects\obj_gameoverlvl</object>
       <object>objects\obj_gameoverpic</object>
+      <object>objects\obj_gameoverendless</object>
       <object>objects\obj_ng</object>
       <object>objects\obj_p1w</object>
       <object>objects\obj_p2w</object>
