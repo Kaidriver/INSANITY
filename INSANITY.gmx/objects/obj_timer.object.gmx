@@ -77,6 +77,10 @@ if (global.timer == true) {
             room_goto(p2w)
         
         } 
+        //If both players same score, tie
+        else {
+        
+        }
         
         
     }
