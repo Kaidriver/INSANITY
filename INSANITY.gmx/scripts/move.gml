@@ -125,7 +125,7 @@ if (place_meeting(x,y, obj_finishlvl5)){
 }
 
 if (place_meeting(x,y, obj_finishlvl6)){
-    room_goto(levelsroom);
+    room_goto(mm);
     global.unlock = true;
     global.level1 = false;
     global.level2 = false;

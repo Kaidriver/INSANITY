@@ -47,8 +47,9 @@
   <backgrounds name="background">
     <background>background\background1</background>
     <background>background\background2</background>
-    <background>background\background3</background>
-    <background>background\background4</background>
+    <background>background\Howtoplay</background>
+    <background>background\Credit</background>
+    <background>background\mingming</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -168,6 +169,7 @@
     <room>rooms\How_To_Play</room>
     <room>rooms\credits</room>
     <room>rooms\Tie</room>
+    <room>rooms\mm</room>
   </rooms>
   <constants number="5">
     <constant name="CELL_WIDTH">32</constant>
