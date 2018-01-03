@@ -35,6 +35,8 @@ global.timer2 = true;
 global.time = 45;
 //Activates powerup
 global.pup = true;
+//Reset Score
+global.points = 0; 
 </string>
           </argument>
         </arguments>
