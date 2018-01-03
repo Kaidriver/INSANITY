@@ -13,7 +13,7 @@
     <TextureGroup0>0</TextureGroup0>
   </TextureGroups>
   <For3D>0</For3D>
-  <width>2200</width>
-  <height>1700</height>
-  <data>images\background5.png</data>
+  <width>1600</width>
+  <height>900</height>
+  <data>images\mingming.png</data>
 </background>
