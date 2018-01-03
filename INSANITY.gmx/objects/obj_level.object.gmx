@@ -98,8 +98,8 @@ repeat (10000) {
     cx += xdir;
     cy += ydir;
     //keep carver from going outside room
-    cx = clamp(cx, 1, width-2);
-    cy = clamp(cy, 1, height-2);
+    cx = clamp(cx, 2, width-3);
+    cy = clamp(cy, 2, height-3);
     
     
 }

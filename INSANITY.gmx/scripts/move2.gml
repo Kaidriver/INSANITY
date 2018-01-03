@@ -65,7 +65,7 @@ if (place_meeting(x,y,obj_finish)) {
     //increase sound pitch by .1 times
     global.pitch += .1; 
     audio_sound_pitch(sound_bkg, global.pitch);
-    //if endless timer is true
+ 
 } 
  
 
